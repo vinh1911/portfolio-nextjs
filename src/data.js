@@ -1,4 +1,9 @@
-import { AiOutlineGithub, AiOutlineLinkedin } from 'react-icons/ai';
+import {
+  AiOutlineGithub,
+  AiOutlineLinkedin,
+  AiOutlineUser,
+  AiOutlineFileText,
+} from 'react-icons/ai';
 
 import { FaSteam } from 'react-icons/fa';
 
@@ -53,5 +58,56 @@ export const EXPERIENCE = [
     period: 'Feb 2019 - Jul 2019',
     time: '5 mos',
     link: 'https://www.rosen-group.com/',
+  },
+];
+
+export const FEATURED_PROJECTS = [
+  {
+    name: 'Portfolio',
+    icon: <AiOutlineUser size={30} className="text-neutral-500 " />,
+    description: 'Personal portfolio site built with Next.js.',
+    link: 'https://github.com/vinh1911/portfolio-nextjs',
+  },
+  {
+    name: 'Digitizes handwriting',
+    icon: <AiOutlineFileText size={30} className="text-neutral-500 " />,
+    description: 'Export handwritten data captured on form to JSON.',
+    link: 'https://github.com/vinh1911/table-detection',
+  },
+];
+
+export const ALL_PROJECTS = [
+  {
+    section: 'To Do',
+    data: [
+      {
+        name: 'Angular Portfolio',
+      },
+      {
+        name: 'Add 3d playground to portfolio using Three.js',
+      },
+      {
+        name: 'Some machine learning stuff',
+      },
+    ],
+  },
+  {
+    section: '2023',
+    data: [
+      {
+        name: 'Next.js Portfolio',
+        link: 'https://github.com/vinh1911/portfolio-nextjs',
+      },
+    ],
+  },
+
+  {
+    section: '2020',
+    data: [
+      {
+        name: 'Digitizes handwriting',
+        link: 'https://github.com/vinh1911/table-detection',
+      },
+    ],
   },
 ];
