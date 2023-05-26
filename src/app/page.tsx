@@ -17,7 +17,7 @@ export default function Page() {
             href="https://nextjs.org/"
             target="_blank"
             rel="noreferrer"
-            className="font-medium text-lime-600 no-underline hover:underline"
+            className="font-medium underline hover:text-neutral-400"
           >
             Next.js 13
           </a>{' '}
@@ -26,7 +26,7 @@ export default function Page() {
             href="https://nextjs.org/blog/next-13-4"
             target="_blank"
             rel="noreferrer"
-            className="font-medium text-lime-600 no-underline hover:underline"
+            className="font-medium underline hover:text-neutral-400"
           >
             App Router
           </a>,{' '}

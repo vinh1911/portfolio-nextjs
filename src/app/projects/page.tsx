@@ -16,8 +16,8 @@ export default function Page() {
   return (
     <main className="mx-auto min-h-screen max-w-3xl px-6 text-neutral-100 md:max-w-5xl">
       <div className="py-24 sm:px-28 sm:py-28">
-        <h1 className="bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 bg-clip-text text-4xl font-bold text-transparent text-white md:pb-4 md:text-6xl">
-          Projects.
+        <h1 className="text-4xl font-bold text-white md:pb-4 md:text-6xl">
+          Projects<span className="text-lime-500">.</span>
         </h1>
         <p className="pb-4 text-xl text-neutral-300">
           Some side projects I&apos;ve been working on to demonstrate my tech

@@ -111,3 +111,175 @@ export const ALL_PROJECTS = [
     ],
   },
 ];
+
+export const RESOURCES = [
+  {
+    section: 'Cloud Platforms',
+    data: [
+      {
+        name: 'Supabase',
+        description: 'An open source Firebase alternative.',
+        link: 'https://supabase.com/',
+      },
+      {
+        name: 'Netlify',
+        description: 'A serverless development platform.',
+        link: ' https://www.netlify.com/',
+      },
+
+      {
+        name: 'Vercel',
+        description: 'Easy deployment platform.',
+        link: 'https://vercel.com/',
+      },
+    ],
+  },
+  {
+    section: 'Design Tools',
+    data: [
+      {
+        name: 'removebg',
+        description: 'Free Background Remover.',
+        link: 'https://www.remove.bg/',
+      },
+      {
+        name: 'favicon.io',
+        description: 'Free favicon generator.',
+        link: 'https://favicon.io/',
+      },
+      {
+        name: 'CSS Gradient',
+        description: 'Create a gradient background.',
+        link: 'https://cssgradient.io/',
+      },
+      {
+        name: 'HTML Color Picker',
+        description: 'Color hue maker.',
+        link: 'https://www.w3schools.com/colors/colors_picker.asp',
+      },
+      {
+        name: 'Clippy',
+        description: 'CSS clip-path maker.',
+        link: 'https://bennettfeely.com/clippy/',
+      },
+      {
+        name: 'CSS matic',
+        description: 'The ultimate CSS tools for web designers.',
+        link: 'https://www.cssmatic.com/',
+      },
+    ],
+  },
+  {
+    section: 'AI Tools',
+    data: [
+      {
+        name: 'Midjourney',
+        description: 'AI Text to Image Generator.',
+        link: 'https://midjourney.com',
+      },
+      {
+        name: 'ChatGPT',
+        description: 'OpenAI chatbot that uses GPT-3.',
+        link: ' https://chat.openai.com/auth/loginF',
+      },
+      {
+        name: 'GitHub Copilot',
+        description: 'AI pair programmer',
+        link: 'https://github.com/features/copilot',
+      },
+    ],
+  },
+  {
+    section: 'Miscellaneous',
+    data: [
+      {
+        name: 'Lorem Ipsum',
+        description: 'Placeholder text generator.',
+        link: ' https://loremipsum.io/',
+      },
+    ],
+  },
+  {
+    section: 'Productivity',
+    data: [
+      {
+        name: 'Excalidraw',
+        description: 'Virtual collaborative whiteboard.',
+        link: 'https://excalidraw.com/',
+      },
+    ],
+  },
+  {
+    section: 'Front-End',
+    data: [
+      {
+        name: 'React Icons',
+        description: 'Popular icon packs.',
+        link: 'https://react-icons.github.io/react-icons',
+      },
+      {
+        name: 'heroicons',
+        description: 'Icons from Tailwind CSS.',
+        link: 'https://heroicons.com/',
+      },
+      {
+        name: 'Flowbite',
+        description: 'Components using Tailwind CSS.',
+        link: 'https://flowbite.com/',
+      },
+      {
+        name: 'Tailwind CSS',
+        description: 'Utility-first CSS framework.',
+        link: 'https://tailwindcss.com/',
+      },
+    ],
+  },
+  {
+    section: 'UI Libraries',
+    data: [
+      {
+        name: 'Material UI',
+        description:
+          "A comprehensive library of components based on Google's Material Design system.",
+        link: 'https://mui.com/',
+      },
+      {
+        name: 'Ant Design',
+        description: 'UI design language and React UI library.',
+        link: 'https://ant.design/',
+      },
+      {
+        name: 'Chakra UI',
+        description: 'A simple, modular and accessible component library',
+        link: 'https://chakra-ui.com/',
+      },
+      {
+        name: 'Headless UI',
+        description: 'UI components accessible with Tailwind CSS',
+        link: 'https://headlessui.com/',
+      },
+    ],
+  },
+  {
+    section: 'Free Online Courses',
+    data: [
+      {
+        name: 'Scrimba',
+        description: 'Interactive courses and tutorials.',
+        link: 'https://scrimba.com/allcourses',
+      },
+      {
+        name: 'LearnWeb3',
+        description:
+          'The best place to turn you into a web3 developer for completely free.',
+        link: 'https://learnweb3.io/',
+      },
+      {
+        name: 'Kaggle',
+        description:
+          'Gain the skills you need to do independent data science projects.',
+        link: 'https://www.kaggle.com/learn',
+      },
+    ],
+  },
+];
