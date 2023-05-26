@@ -10,7 +10,7 @@ import { usePathname } from 'next/navigation';
 export function Navbar() {
   const pathname = usePathname();
   return (
-    <Popover className="absolute  mx-auto w-full px-2 sm:px-20">
+    <Popover className="absolute mx-auto w-full px-2 sm:px-20">
       <Popover.Overlay className="fixed inset-0 backdrop-blur-sm" />
       <div className="mx-2 px-2 md:mx-10">
         <div className="flex items-center justify-between py-4 md:justify-start md:space-x-10">
@@ -20,8 +20,8 @@ export function Navbar() {
                 src="/logo.png"
                 alt=""
                 width={60}
-                height={55}
-                className="00 rounded-md p-3 transition duration-300
+                height={60}
+                className="rounded-md p-3 transition duration-300
                 hover:bg-neutral-600 hover:ease-in"
               />
             </Link>
@@ -96,16 +96,24 @@ export function Navbar() {
           className="absolute inset-x-0 top-0 origin-top-right transform p-2 transition md:hidden"
         >
           {({ close }) => (
-            <div className="divide-y-2 divide-neutral-50 rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5">
-              <div className="px-5 pt-5 pb-6">
+            <div className="rounded-lg bg-neutral-900 shadow-lg ring-1 ring-neutral-200 ring-opacity-50">
+              <div className="px-5 pt-5 pb-3">
                 <div className="flex items-center justify-between">
                   <div>
                     <Link href="/">
-                      <Image src="/logo.png" alt="" width={35} height={35} />
+                      <Image
+                        src="/logo.png"
+                        alt=""
+                        width={40}
+                        height={40}
+                        className="rounded-md p-1 transition duration-300
+                hover:bg-neutral-600 hover:ease-in"
+                        onClick={() => close()}
+                      />
                     </Link>
                   </div>
                   <div className="-mr-2">
-                    <Popover.Button className="inline-flex items-center justify-center rounded-md bg-transparent p-2 text-neutral-400 hover:bg-neutral-100 hover:text-neutral-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                    <Popover.Button className="inline-flex items-center justify-center rounded-md bg-transparent p-2 text-neutral-400 hover:bg-neutral-100 hover:text-neutral-600 focus:outline-none">
                       <span className="sr-only">Close menu</span>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -130,8 +138,8 @@ export function Navbar() {
                   <Link
                     className={
                       pathname == '/about'
-                        ? 'text-base font-bold text-neutral-500 hover:text-neutral-600'
-                        : 'text-base text-neutral-500 hover:text-neutral-600'
+                        ? 'text-base font-bold text-neutral-100 hover:text-neutral-300'
+                        : 'text-base text-neutral-100 hover:text-neutral-300'
                     }
                     href="/about"
                     onClick={() => close()}
@@ -142,8 +150,8 @@ export function Navbar() {
                   <Link
                     className={
                       pathname == '/projects'
-                        ? 'text-base font-bold text-neutral-500 hover:text-neutral-600'
-                        : 'text-base text-neutral-500 hover:text-neutral-600'
+                        ? 'text-base font-bold text-neutral-100 hover:text-neutral-200'
+                        : 'text-base text-neutral-100 hover:text-neutral-200'
                     }
                     href="/projects"
                     onClick={() => close()}
@@ -154,8 +162,8 @@ export function Navbar() {
                   <Link
                     className={
                       pathname == '/resources'
-                        ? 'text-base font-bold text-neutral-500 hover:text-neutral-600'
-                        : 'text-base text-neutral-500 hover:text-neutral-600'
+                        ? 'text-base font-bold text-neutral-100 hover:text-neutral-200'
+                        : 'text-base text-neutral-100 hover:text-neutral-200'
                     }
                     href="/resources"
                     onClick={() => close()}
