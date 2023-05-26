@@ -3,12 +3,12 @@ import Link from 'next/link';
 
 import { FEATURED_PROJECTS, ALL_PROJECTS } from '@/data';
 
-interface Project {
-  name: string;
-  link?: string;
-}
-
 export default function Page() {
+  interface Project {
+    name: string;
+    link?: string;
+  }
+
   const sortedArr = ALL_PROJECTS.sort((a, b) =>
     b.section.localeCompare(a.section)
   );
