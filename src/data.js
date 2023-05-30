@@ -5,7 +5,7 @@ import {
   AiOutlineFileText,
 } from 'react-icons/ai';
 
-import { FaSteam } from 'react-icons/fa';
+import { FaSteam, FaAngular } from 'react-icons/fa';
 
 export const SOCIALS = [
   {
@@ -69,6 +69,12 @@ export const FEATURED_PROJECTS = [
     link: 'https://github.com/vinh1911/portfolio-nextjs',
   },
   {
+    name: 'Task managing app',
+    icon: <FaAngular size={30} className="text-neutral-500 " />,
+    description: 'Interview assignment. Uses Angular 12.',
+    link: 'https://github.com/vinh1911/angular-code-assignment',
+  },
+  {
     name: 'Digitizes handwriting',
     icon: <AiOutlineFileText size={30} className="text-neutral-500 " />,
     description: 'Export handwritten data captured on form to JSON.',
@@ -95,8 +101,12 @@ export const ALL_PROJECTS = [
     section: '2023',
     data: [
       {
-        name: 'Next.js Portfolio',
+        name: 'Next.js - Portfolio',
         link: 'https://github.com/vinh1911/portfolio-nextjs',
+      },
+      {
+        name: 'Angular - Task Managing App',
+        link: 'https://github.com/vinh1911/angular-code-assignment',
       },
     ],
   },
