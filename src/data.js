@@ -78,7 +78,7 @@ export const FEATURED_PROJECTS = [
   {
     name: 'Giphy Clone',
     icon: <AiOutlineGif size={30} className="text-neutral-500 " />,
-    description: 'Giphy clone with masonry layout and Angular\'s Standalone Component.',
+    description: 'Giphy clone with Angular\'s Standalone Component.',
     link: 'https://pe-assignment.vercel.app/gifs',
   },
   {
