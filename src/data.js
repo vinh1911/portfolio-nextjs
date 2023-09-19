@@ -2,7 +2,7 @@ import {
   AiOutlineGithub,
   AiOutlineLinkedin,
   AiOutlineUser,
-  AiOutlineFileText,
+  AiOutlineRobot,
 } from 'react-icons/ai';
 
 import { FaSteam, FaAngular } from 'react-icons/fa';
@@ -63,22 +63,22 @@ export const EXPERIENCE = [
 
 export const FEATURED_PROJECTS = [
   {
-    name: 'Portfolio',
-    icon: <AiOutlineUser size={30} className="text-neutral-500 " />,
-    description: 'Personal portfolio site built with Next.js.',
-    link: 'https://github.com/vinh1911/portfolio-nextjs',
+    name: 'Chatbot',
+    icon: <AiOutlineRobot size={30} className="text-neutral-500 " />,
+    description: 'Simple chatbot using Open-Assstant api.',
+    link: 'https://mayo-chatbot.vercel.app/',
   },
   {
     name: 'Task managing app',
     icon: <FaAngular size={30} className="text-neutral-500 " />,
     description: 'Interview assignment. Uses Angular 12.',
-    link: 'https://github.com/vinh1911/angular-code-assignment',
+    link: 'https://mayo-angular-assignment.vercel.app/',
   },
   {
-    name: 'Digitizes handwriting',
-    icon: <AiOutlineFileText size={30} className="text-neutral-500 " />,
-    description: 'Export handwritten data captured on form to JSON.',
-    link: 'https://github.com/vinh1911/table-detection',
+    name: 'Portfolio',
+    icon: <AiOutlineUser size={30} className="text-neutral-500 " />,
+    description: 'Personal portfolio site built with Next.js.',
+    link: 'https://mayo-portfolio.vercel.app/',
   },
 ];
 
@@ -100,6 +100,10 @@ export const ALL_PROJECTS = [
   {
     section: '2023',
     data: [
+      {
+        name: 'Next.js - Open-Assistant chatbot',
+        link: 'https://github.com/vinh1911/chatbot-openassistant',
+      },
       {
         name: 'Next.js - Portfolio',
         link: 'https://github.com/vinh1911/portfolio-nextjs',
