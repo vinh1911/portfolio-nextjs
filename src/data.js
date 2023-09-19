@@ -3,6 +3,7 @@ import {
   AiOutlineLinkedin,
   AiOutlineUser,
   AiOutlineRobot,
+  AiOutlineGif
 } from 'react-icons/ai';
 
 import { FaSteam, FaAngular } from 'react-icons/fa';
@@ -75,6 +76,12 @@ export const FEATURED_PROJECTS = [
     link: 'https://mayo-angular-assignment.vercel.app/',
   },
   {
+    name: 'Giphy Clone',
+    icon: <AiOutlineGif size={30} className="text-neutral-500 " />,
+    description: 'Giphy clone with masonry layout and Angular\'s Standalone Component.',
+    link: 'https://pe-assignment.vercel.app/gifs',
+  },
+  {
     name: 'Portfolio',
     icon: <AiOutlineUser size={30} className="text-neutral-500 " />,
     description: 'Personal portfolio site built with Next.js.',
@@ -100,6 +107,10 @@ export const ALL_PROJECTS = [
   {
     section: '2023',
     data: [
+      {
+        name: 'Angular - Giphy Clone',
+        link: 'https://github.com/vinh1911/pe-assignment',
+      },
       {
         name: 'Next.js - Open-Assistant chatbot',
         link: 'https://github.com/vinh1911/chatbot-openassistant',
